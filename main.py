@@ -12,7 +12,7 @@ class KinopoiskAPIParser:
     def __init__(self):
         self.base_url = "https://api.kinopoisk.dev/v1.4/movie"
         self.search_url = "https://api.kinopoisk.dev/v1.4/movie/search"
-        self.api_key = "CP3ZGS9-NCMMF19-KTFSFDQ-9T0492W"  # Ваш API ключ
+        self.api_key = "CP3ZGS9-NCMMF19-KTFSFDQ-9T0492W"  # API ключ
 
     def search_movie(self, movie_name: str) -> Optional[Dict[str, Any]]:
         """Поиск фильма через API"""
